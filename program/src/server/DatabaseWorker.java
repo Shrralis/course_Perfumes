@@ -23,8 +23,8 @@ public class DatabaseWorker {
         }
 
         final String sDatabaseName = "perfumes";
-        final String sServerUser = "root";
-        final String sServerPassword = "zolotorig91";
+        final String sServerUser = "ТУТ_ВВЕДИ_ІМ'Я_КОРИСТУВАЧА_MYSQL_SERVER";
+        final String sServerPassword = "ТУТ_ВВЕДИ_ПАРОЛЬ_КОРИСТУВАЧА_MYSQL_SERVER";
 
         try {
             if (iam.connection == null || iam.connection.isClosed()) {
