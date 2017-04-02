@@ -1,6 +1,5 @@
 package models;
 
-import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
@@ -22,7 +21,7 @@ public class Brand extends Owner {
     }
 
     @Override
-    public Brand parse(ResultSet from, Connection connection) {
+    public Brand parse(ResultSet from) {
         super.parse(from);
 
         try {
